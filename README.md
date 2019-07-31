@@ -1,6 +1,8 @@
 # _Jira_ OMG Microservice
 
 [![Open Microservice Guide](https://img.shields.io/badge/OMG%20Enabled-👍-green.svg?)](https://microservice.guide)
+[![Build Status](https://travis-ci.com/omg-services/jira.svg?branch=master)](https://travis-ci.com/omg-services/jira)
+[![codecov](https://codecov.io/gh/omg-services/jira/branch/master/graph/badge.svg)](https://codecov.io/gh/omg-services/jira)
 
 An OMG service for jira, to create issue, list project etc. jira workflows control the status of the project.
 
