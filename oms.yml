@@ -1,7 +1,7 @@
 omg: 1
 lifecycle:
   startup:
-    command: ["jira"]
+    command: ['jira']
 info:
   version: 1.0.0
   title: Jira
@@ -22,7 +22,7 @@ actions:
       path: /getAccount
       contentType: application/json
     arguments:
-      username: 
+      username:
         type: string
         in: requestBody
         required: true
@@ -48,7 +48,7 @@ actions:
           type: string
         avatarUrls:
           help: The link of avatars.
-          type: object
+          type: map
         displayName:
           help: The account display name.
           type: string
@@ -120,7 +120,7 @@ actions:
       path: /listProject
       contentType: application/json
     output:
-      type: list
+      type: object
       contentType: application/json
       properties:
         id:
@@ -165,8 +165,10 @@ actions:
           help: The issue key.
           type: string
         fields:
-          help: The object with all details as assignee, issuetype, project, reporter.
-          type: object
+          help:
+            The object with all details as assignee, issuetype, project,
+            reporter.
+          type: map
 environment:
   EMAIL:
     type: string
