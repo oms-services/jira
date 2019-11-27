@@ -2,7 +2,7 @@ oms: 1
 info:
   version: 1.0.0
   title: Jira
-  description: This is a jira service
+  description: Access the Jira API
   contact:
     name: Open Microservices
     url: 'https://openmicroservices.org'
@@ -167,8 +167,7 @@ actions:
           type: string
         fields:
           help: >-
-            The object with all details as assignee, issuetype, project,
-            reporter.
+            The object with all details as assignee, issuetype, project, reporter.
           type: map
 environment:
   EMAIL:

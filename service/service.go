@@ -3,7 +3,7 @@ package service
 import (
 	"encoding/json"
 	jira "github.com/andygrunwald/go-jira"
-	result "github.com/heaptracetechnology/jira/result"
+	result "github.com/oms-services/jira/result"
 	"net/http"
 	"os"
 )

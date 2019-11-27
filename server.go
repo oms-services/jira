@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/heaptracetechnology/jira/route"
+	"github.com/oms-services/jira/route"
 	"log"
 	"net/http"
 )
