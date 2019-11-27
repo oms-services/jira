@@ -1,18 +1,19 @@
-omg: 1
-lifecycle:
-  startup:
-    command: ['jira']
+oms: 1
 info:
   version: 1.0.0
   title: Jira
   description: This is a jira service
   contact:
-    name: Rohit Shetty
-    url: https://github.com/ht68rohit
-    email: rohits@heaptrace.com
+    name: Open Microservices
+    url: 'https://openmicroservices.org'
+    email: core@openmicroservices.org
   license:
     name: MIT
-    url: https://opensource.org/licenses/MIT
+    url: 'https://opensource.org/licenses/MIT'
+lifecycle:
+  startup:
+    command:
+      - jira
 actions:
   getAccount:
     help: Get account details.
@@ -53,7 +54,7 @@ actions:
           help: The account display name.
           type: string
         active:
-          help: Returns boolean, true if account is active else false.
+          help: 'Returns boolean, true if account is active else false.'
           type: boolean
         timeZone:
           help: The time zone.
@@ -88,7 +89,7 @@ actions:
         type: string
         in: requestBody
         required: true
-        help: The type of issue like Bug, Epic, Story.
+        help: 'The type of issue like Bug, Epic, Story.'
       projectKey:
         type: string
         in: requestBody
@@ -165,7 +166,7 @@ actions:
           help: The issue key.
           type: string
         fields:
-          help:
+          help: >-
             The object with all details as assignee, issuetype, project,
             reporter.
           type: map
