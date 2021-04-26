@@ -9,6 +9,8 @@ github.com/google/go-querystring v0.0.0-20170111101155-53e6ce116135 h1:zLTLjkaOF
 github.com/google/go-querystring v0.0.0-20170111101155-53e6ce116135/go.mod h1:odCYkC5MyYFN7vkCjXpyrEuKhc/BUO6wN/zVPAxq5ck=
 github.com/gorilla/mux v1.7.3 h1:gnP5JzjVOuiZD07fKKToCAOjS0yOpj/qPETTXCCS6hw=
 github.com/gorilla/mux v1.7.3/go.mod h1:1lud6UwP+6orDFRuTfBEV8e9/aOM/c4fVVCaMa2zaAs=
+github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
+github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
 github.com/heaptracetechnology/jira v0.0.0-20190725071149-caf35b3ba219/go.mod h1:I17XSzndxOffguEM1IoM7GEvABIP8mmOld58JEhBKvI=
 github.com/oms-services/jira v0.0.0-20190725071149-caf35b3ba219 h1:HPSL+/lUEuRUBkh8nG4N4xvWIPYjxYk4uB6GWfYfkGk=
 github.com/oms-services/jira v0.0.0-20190725071149-caf35b3ba219/go.mod h1:I17XSzndxOffguEM1IoM7GEvABIP8mmOld58JEhBKvI=
